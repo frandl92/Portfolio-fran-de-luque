@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import emailjs from '@emailjs/browser'
+import CVfran from "../../assets/images/cv-fran.png"
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -95,6 +96,8 @@ const Contact = () => {
             </form>
           </div>
         </div>
+        <div className='cv'>
+          <img src={CVfran} alt="cv"/>        </div>
       </div>
     </>
   )
