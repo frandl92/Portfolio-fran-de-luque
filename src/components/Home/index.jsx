@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import FranLuz from "../../assets/images/fran-luz.png"
 
 import AnimatedLetters from '../AnimatedLetters'
 
@@ -70,6 +71,9 @@ const Home = () => {
           {' '}
           CONTACT ME{' '}
         </Link>
+      </div>
+      <div className='franIntro'>
+        <img src={FranLuz} alt="fran"/>
       </div>
     </div>
   )

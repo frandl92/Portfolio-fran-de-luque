@@ -1,4 +1,5 @@
 .home-page {
+  display: flex;
     .text-zone {
       position: absolute;
       left: 10%;
@@ -9,7 +10,7 @@
     }
   
     h1 {
-      color: #fff;
+      color: #d4a373;
       font-size: 56px;
       line-height: 53px;
       margin: 0;
@@ -19,7 +20,7 @@
       &:before {
         content: '<h1>';
         font-family: 'La Belle Aurore', cursive;
-        color: #ffd700;
+        color: black;
         font-size: 18px;
         position: absolute;
         margin-top: -40px;
@@ -30,7 +31,7 @@
       &:after {
         content: '<h1/>';
         font-family: 'La Belle Aurore', cursive;
-        color: #ffd700;
+        color: black;
         font-size: 18px;
         position: absolute;
         margin-top: 18px;
@@ -41,32 +42,42 @@
     }
   
     h2 {
-      color: #8d8d8d;
+      color: #023047;
       margin-top: 20px;
       font-weight: 400;
-      font-size: 11px;
+      font-size: 15px;
       font-family: sans-serif;
       letter-spacing: 3px;
       animation: fadeIn 1s 1.8s backwards;
     }
   
     .flat-button {
-      color: #ffd700;
+      color: #023047;
       font-size: 13px;
       font-weight: 400;
       letter-spacing: 4px;
       font-family: sans-serif;
       text-decoration: none;
       padding: 10px 18px;
-      border: 1px solid #ffd700;
+      border: 1px solid #023047;
       margin-top: 25px;
       float: left;
-      animation: fadeInAnimation 1s 1.8s backwards;
+      animation: fadeInAnimation 2s 1.8s backwards;
       white-space: nowrap;
   
       &:hover {
         background: #ffd700;
         color: #333;
+      }
+    }
+    .franIntro{
+      img{
+        height: 40em;
+        width: 40em;
+        margin-left: 76em ;
+        margin-top: 8.5em;
+        animation: fadeIn 1s 2s backwards;
+
       }
     }
   }
